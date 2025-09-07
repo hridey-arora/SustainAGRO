@@ -56,5 +56,5 @@ This project helps farmers improve irrigation, detect plant stress early, and ma
 ### 3️⃣ Run Plant Health Prediction  
 ```bash
 cd CV_Model
-python predict.py --image sample_images/leaf1.jpg
+python predict.py --image sample_images/
 
