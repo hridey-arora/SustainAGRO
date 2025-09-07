@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SustainAGRO Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #eefbee; }
+    .card { border: 1px solid #ccc; border-radius: 10px; padding: 20px; margin: 20px auto; width: 400px; background: #fff; }
+    h1 { color: #228B22; }
+    .value { font-size: 1.2em; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>🌱 SustainAGRO Dashboard</h1>
+  <div class="card">
+    <h2>Sensor Readings</h2>
+    <p class="value">Soil Moisture: {{soil}}</p>
+    <p class="value">Temperature: {{temp}} °C</p>
+    <p class="value">Humidity: {{hum}} %</p>
+  </div>
+  <div class="card">
+    <h2>Plant Health</h2>
+    <p class="value">{{plant}}</p>
+  </div>
+  <div class="card">
+    <h2>Best Recommended Crop</h2>
+    <p class="value">{{crop}}</p>
+  </div>
+</body>
+</html>
