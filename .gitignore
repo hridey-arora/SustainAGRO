@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated ML artifacts
+*.h5
+*.keras
+*.tflite
+CV_Model/model.h5
+
+# Local datasets and captures
+CV_Model/dataset/
+CV_Model/sample_images/
+*.jpg
+*.jpeg
+*.png
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
